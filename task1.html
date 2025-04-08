@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Простейшие задания</title>
+</head>
+<body>
+    <script>
+        //1.28
+        // let a, v, sB;
+        // a = parseInt(prompt("введите длину ребра куба"));
+        // v = a*a*a;
+        // sB = 4*a*a;
+        // alert("V = "+ v);
+        // alert("Sb = "+ sB);
+
+        //2.3
+        // let kg, tn;
+        // kg = parseInt(prompt("введите массу в килограммах"));
+        // tn = Math.floor(kg/1000);
+        // alert("масса в тоннах равна "+ tn);
+
+        //2.10
+        let num, sum, composition, d1, d2;
+
+        num = parseInt(prompt("введите двузначное число"))
+
+        d1 = num % 10;
+        d2 = Math.floor(num/10) % 10;
+
+        sum = d1 + d2;
+        composition = d1*d2;
+
+        alert("число десятков в нем "+ d2);
+        alert("число едениц в нем "+ d1);
+        alert("сумма его цифр "+ sum);
+        alert("произведение его цифр "+ composition);
+
+
+    </script>
+    
+</body>
+</html>
